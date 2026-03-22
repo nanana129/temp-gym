@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2019 Trainer Program Evaluation — World-Class Comparison</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.7;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 16px;
+            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+            overflow: hidden;
+        }
+        header {
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+            color: white;
+            padding: 40px;
+            text-align: center;
+        }
+        header h1 {
+            font-size: 1.8rem;
+            font-weight: 700;
+            margin-bottom: 10px;
+        }
+        header p {
+            opacity: 0.8;
+            font-size: 0.95rem;
+        }
+        .lang-switch {
+            margin-top: 15px;
+        }
+        .lang-switch a {
+            color: #a0aec0;
+            text-decoration: none;
+            padding: 8px 16px;
+            border: 1px solid #a0aec0;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            transition: all 0.3s;
+        }
+        .lang-switch a:hover {
+            background: white;
+            color: #1a1a2e;
+        }
+        .content {
+            padding: 40px;
+        }
+        h2 {
+            color: #1a1a2e;
+            font-size: 1.4rem;
+            margin: 35px 0 20px;
+            padding-bottom: 10px;
+            border-bottom: 3px solid #667eea;
+        }
+        h3 {
+            color: #4a5568;
+            font-size: 1.1rem;
+            margin: 25px 0 15px;
+        }
+        p {
+            margin-bottom: 15px;
+            color: #4a5568;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            font-size: 0.9rem;
+        }
+        th, td {
+            padding: 12px 15px;
+            text-align: left;
+            border-bottom: 1px solid #e2e8f0;
+        }
+        th {
+            background: #f7fafc;
+            font-weight: 600;
+            color: #2d3748;
+        }
+        tr:hover {
+            background: #f7fafc;
+        }
+        .highlight {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 25px;
+            border-radius: 12px;
+            margin: 20px 0;
+        }
+        .highlight h3 {
+            color: white;
+            margin-top: 0;
+        }
+        .stars {
+            color: #f6ad55;
+            letter-spacing: 2px;
+        }
+        .rating-table td:first-child {
+            font-weight: 600;
+        }
+        .rating-table td:nth-child(2) {
+            color: #f6ad55;
+        }
+        .excellent {
+            background: #c6f6d5;
+            color: #22543d;
+            padding: 3px 10px;
+            border-radius: 12px;
+            font-size: 0.8rem;
+            font-weight: 600;
+        }
+        .warning {
+            background: #fed7d7;
+            color: #c53030;
+            padding: 3px 10px;
+            border-radius: 12px;
+            font-size: 0.8rem;
+            font-weight: 600;
+        }
+        .section-box {
+            background: #f7fafc;
+            border-left: 4px solid #667eea;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 0 8px 8px 0;
+        }
+        ul {
+            margin: 15px 0;
+            padding-left: 25px;
+        }
+        li {
+            margin-bottom: 8px;
+            color: #4a5568;
+        }
+        strong {
+            color: #2d3748;
+        }
+        .summary-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            margin: 20px 0;
+        }
+        .summary-card {
+            background: #f7fafc;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+        }
+        .summary-card .value {
+            font-size: 1.8rem;
+            font-weight: 700;
+            color: #667eea;
+        }
+        .summary-card .label {
+            font-size: 0.85rem;
+            color: #718096;
+            margin-top: 5px;
+        }
+        footer {
+            background: #f7fafc;
+            padding: 20px 40px;
+            text-align: center;
+            color: #718096;
+            font-size: 0.85rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>2019 Trainer Program Evaluation</h1>
+            <p>World-Class Comparison Analysis</p>
+            <div class="lang-switch">
+                <a href="trainer_evaluation_jp.html">🇯🇵 日本語版</a>
+            </div>
+        </header>
+        
+        <div class="content">
+            <h2>Data Summary</h2>
+            
+            <div class="summary-grid">
+                <div class="summary-card">
+                    <div class="value">51</div>
+                    <div class="label">Total Exercises</div>
+                </div>
+                <div class="summary-card">
+                    <div class="value">605</div>
+                    <div class="label">Total Sets (8 months)</div>
+                </div>
+                <div class="summary-card">
+                    <div class="value">2x</div>
+                    <div class="label">Weekly Frequency</div>
+                </div>
+                <div class="summary-card">
+                    <div class="value">59%</div>
+                    <div class="label">Compound Ratio</div>
+                </div>
+            </div>
+
+            <table>
+                <tr><th>Item</th><th>Actual</th></tr>
+                <tr><td>Avg. per session</td><td>2.1 exercises, 10.3 sets</td></tr>
+                <tr><td>Rep ranges</td><td>1-3: 16%, 4-6: 21%, 7-10: <strong>43%</strong>, 11-15: 18%</td></tr>
+                <tr><td>Composition</td><td>Compound 59% / Functional 14% / Accessory 27%</td></tr>
+            </table>
+
+            <h2>Excellent Points <span class="excellent">World-Class Level</span></h2>
+
+            <h3>1. Clear Progressive Overload</h3>
+            <div class="section-box">
+                <ul>
+                    <li>SQ: 30kg → 62.5kg (<strong>+108%</strong>)</li>
+                    <li>DL: 70kg → 75kg</li>
+                    <li>BP: 32kg → 37.5kg</li>
+                </ul>
+                <p>This is the most fundamental principle in Strength & Conditioning research, and the top priority for both the NSCA and ACE. Your trainer executed this <strong>flawlessly</strong>.</p>
+            </div>
+
+            <h3>2. Brilliant Rep Range Variation</h3>
+            <div class="section-box">
+                <ul>
+                    <li>Strength zone (1-6 reps): <strong>37%</strong></li>
+                    <li>Hypertrophy zone (7-10 reps): <strong>43%</strong></li>
+                    <li>Endurance zone (11-15 reps): <strong>18%</strong></li>
+                </ul>
+                <p>This closely matches the <strong>"rep range continuum"</strong> advocated by Brad Schoenfeld. The approach resembles <strong>Daily Undulating Periodization (DUP)</strong>, one of the most evidence-backed periodization methods.</p>
+            </div>
+
+            <h3>3. Compound Ratio of 59% is Ideal</h3>
+            <p>At 59%, your program exceeds what most gym trainers typically program (40-50%) and nearly matches the evidence-based ideal (60-70%).</p>
+
+            <h3>4. 14% Functional Component = "Athlete-Type" Program</h3>
+            <p>Box Jumps, Kettlebell Swings, Thrusters, Medicine Ball work — this aligns with the programming philosophy of <strong>Mike Boyle</strong> (NBA/NFL consultant) and <strong>Eric Cressey</strong> (MLB trainer). Your trainer integrated <strong>Concurrent Training</strong> — the most appropriate method for team sport athletes.</p>
+
+            <h3>5. Focused Exercise Selection Per Session</h3>
+            <p>An average of 2.1 exercises per session with 6-9 sets each aligns with Greg Nuckols' "fewer exercises, higher volume, higher concentration" approach.</p>
+
+            <h2>Areas for Improvement <span class="warning">Needs Attention</span></h2>
+
+            <h3>1. Back Volume is Critically Insufficient (Biggest Weakness)</h3>
+            
+            <table>
+                <tr><th>Body Part</th><th>Sets</th><th>Ratio</th></tr>
+                <tr><td>Legs</td><td>270</td><td>44.6%</td></tr>
+                <tr><td>Chest</td><td>103</td><td>17.0%</td></tr>
+                <tr><td>Shoulders</td><td>79</td><td>13.1%</td></tr>
+                <tr><td>Arms</td><td>34</td><td>5.6%</td></tr>
+                <tr><td>Abs</td><td>10</td><td>1.7%</td></tr>
+                <tr style="background: #fed7d7;"><td><strong>Back</strong></td><td><strong>3</strong></td><td><strong>0.5%</strong></td></tr>
+            </table>
+
+            <div class="highlight">
+                <h3>⚠️ Push:Pull Ratio = 60:1</h3>
+                <p>Evidence-based trainers worldwide agree that push and pull should maintain at least a 1:1 balance. This imbalance may cause forward posture, shoulder impingement risk, and bench press plateaus.</p>
+            </div>
+
+            <h3>2. Periodization is "Intuitive" Rather Than Systematic</h3>
+            <p>No intentional deload weeks are visible. However, the trainer may have been adjusting based on condition and feedback — a form of autoregulated periodization.</p>
+
+            <h3>3. Upper Body Biased Toward Horizontal Plane</h3>
+            <p>Horizontal pulls (rows): virtually zero. Vertical pulls (chin-ups/pulldowns): zero. Eric Cressey recommends 1:1 balance for both horizontal and vertical push/pull.</p>
+
+            <h2>"Should You Have Been Pushed More?"</h2>
+            
+            <div class="section-box">
+                <p><strong>No — your trainer's approach to intensity was remarkably smart.</strong></p>
+                <p>Your squat progression: Feb 30kg → May 60kg → Aug 62.5kg</p>
+                <p><strong>Your weight doubled in 4 months.</strong> This is an ideal progression rate and would be impossible with "insufficient intensity."</p>
+            </div>
+
+            <h2>"Was It Really a Custom Program?"</h2>
+            
+            <div class="section-box">
+                <p><strong>Yes — the data proves it:</strong></p>
+                <ul>
+                    <li><strong>51 exercises</strong> — a template program cycles through 10-15</li>
+                    <li>Exercise selection aligned with basketball goals</li>
+                    <li>A structure that leveraged your leg strength</li>
+                    <li>Careful consideration of upper body weakness</li>
+                </ul>
+            </div>
+
+            <h2>Overall Assessment</h2>
+            
+            <table class="rating-table">
+                <tr><th>Category</th><th>Rating</th><th>Notes</th></tr>
+                <tr><td>Progressive Overload</td><td class="stars">★★★★★</td><td>Textbook-level execution</td></tr>
+                <tr><td>Rep Range Variation</td><td class="stars">★★★★★</td><td>Advanced DUP-like approach</td></tr>
+                <tr><td>Compound Ratio</td><td class="stars">★★★★☆</td><td>Near-ideal</td></tr>
+                <tr><td>Functional Integration</td><td class="stars">★★★★★</td><td>Top-tier for athlete-type</td></tr>
+                <tr><td>Individual Optimization</td><td class="stars">★★★★★</td><td>51-exercise variety proves it</td></tr>
+                <tr><td>Push/Pull Balance</td><td class="stars">★★☆☆☆</td><td>Back is critically undertrained</td></tr>
+                <tr><td>Periodization</td><td class="stars">★★★☆☆</td><td>Intuitive but results-driven</td></tr>
+                <tr><td>Back/Scapular Stability</td><td class="stars">★☆☆☆☆</td><td>Almost completely unaddressed</td></tr>
+            </table>
+
+            <div class="highlight">
+                <h3>Conclusion</h3>
+                <p><strong>An excellent trainer — with a blind spot in back programming.</strong></p>
+                <p>Adding back pulling movements to your v4 program can provide the shoulder stability and postural improvements that the 2019 program didn't address. Your "weak shoulders" and "instability" issues have a high likelihood of improving through back strengthening.</p>
+            </div>
+        </div>
+        
+        <footer>
+            <p>Analysis based on 2019 training data • Comparison with NSCA, ACSM, and world-class coaching standards</p>
+        </footer>
+    </div>
+</body>
+</html>
